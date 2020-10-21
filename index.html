@@ -10,8 +10,8 @@
   <body>
 
     <header>
-      <h1>Bus Mall Store</h1>
       <nav>
+        <h1>Bus Mall Store</h1>
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="cart.html">Cart</a><span id="itemCount"></span></li>
@@ -20,7 +20,6 @@
     </header>
 
     <main>
-
       <section class="deck col-1">
         <div class="card">
           <header>
@@ -48,7 +47,7 @@
                 </label>
                 <label>
                   <span>Quantity</span>
-                  <input id="quantity" type="number" />
+                  <input id="quantity" type="number" min=1 required/>
                 </label>
                 <input type="submit" value="Add To Cart" />
               </fieldset>
